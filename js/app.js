@@ -96,7 +96,7 @@
      
               user.signUp(null, {
                   success: function(user) {
-                    window.location.hash = 'login/';
+                    window.location.hash = '';
                   },
                   error: function(user, error) {
                     // Show the error message somewhere and let the user try again.
