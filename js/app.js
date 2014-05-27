@@ -96,6 +96,7 @@
      
               user.signUp(null, {
                   success: function(user) {
+                    handler.navbar();
                     window.location.hash = '';
                   },
                   error: function(user, error) {
